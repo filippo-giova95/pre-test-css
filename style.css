@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    padding: 10px;
+}
+
+header img {
+    margin-left: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.left-container {
+    width: 75%;
+}
+
+main {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+}
+
+.input-email {
+    width: 300px;
+    height: 15px;
+    padding: 10px 9px;
+    margin: 15px 0px;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+
+section h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+section a {
+    text-decoration: dotted;
+}
+
+section button {
+    width: 320px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+aside {
+    width: 25%;
+    background-color: lightgray;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside img {
+    margin: 15px 5px;
+}
+
+aside p {
+    margin-left: -190px;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    height: 113px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
